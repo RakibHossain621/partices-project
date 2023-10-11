@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peskit-app</title>
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/about.css">
+    <link rel="stylesheet" href="../styles/app.css">
+    <link rel="stylesheet" href="../styles/responsive.css">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -14,64 +17,92 @@
     referrerpolicy="no-referrer"/>
 </head>
 <body>
-  <header>
-    <div class="topber-bg">
-        <div class="container">
-          <div class="top-left">
-          <a href="#" class="topbar-link"></a> <i class="fas fa-map-marker-alt mr-2 text-secondary"></i>
+ 
+   <!--TODO: Header Start -->
+   <header>
+    <div class="topbar_bg">
+      <div class="container">
+        <!-- Left Content Start TODO: -->
+        <div class="top_left">
+          <a href="#" class="topbar_link">
+            <i class="fas fa-map-marker-alt mr-2 text-secondary"></i>
             123 Street, CA, USA
           </a>
-          <a href="#" class="topbar-link"><i class="fas fa-phone-alt mr-2 text-secondary"></i>
+          <a href="#" class="topbar_link">
+            <i class="fas fa-phone-alt mr-2 text-secondary"></i>
             +01234567890
           </a>
-          <a href="#" class="topbar-link"></a> <i class="fas fa-envelope mr-2 text-secondary"></i
-            > Example@gmail.com</a>
-          <div class="search-bar">
-            <input type="text" placeholder="search here">
+          <a href="#" class="topbar_link"
+            ><i class="fas fa-envelope mr-2 text-secondary"></i
+            >Example@gmail.com</a
+          >
+          <div class="search_bar">
+            <input type="text" placeholder="Search Here" />
             <i class="fa fa-search text-secondary pointer"></i>
           </div>
-            </div>
-            <div class="top-right">
-              <a href="#" class="mr-4"
-                        ><i class="fab fa-facebook-f text-secondary"></i
-                      ></a>
-                      <a href="#" class="mr-4"
-                        ><i class="fab fa-twitter text-secondary"></i
-                      ></a>
-                      <a href="#" class="mr-4"
-                        ><i class="fab fa-instagram text-secondary"></i
-                      ></a>
-                      <a href="#" class=""
-                        ><i class="fab fa-linkedin-in text-secondary"></i
-                      ></a>
         </div>
+        <!-- Left Content End TODO: -->
+        <!-- Right Content Start TODO: -->
+        <div class="top_right">
+          <a href="#" class="mr-4"
+            ><i class="fab fa-facebook-f text-secondary"></i
+          ></a>
+          <a href="#" class="mr-4"
+            ><i class="fab fa-twitter text-secondary"></i
+          ></a>
+          <a href="#" class="mr-4"
+            ><i class="fab fa-instagram text-secondary"></i
+          ></a>
+          <a href="#" class="mr-4"
+            ><i class="fab fa-linkedin-in text-secondary"></i
+          ></a>
+        </div>
+        <!-- Right Content End TODO: -->
+      </div>
     </div>
-   </div>
-     
-   <!-- top end -->
-
     <nav class="navbar">
-        <div class="container">
-          <div class="logo">
-            <a href="#">Pest<span>Kit</span></a>
-            <i class="fa fa-spider text-primary ms-2"></i>
-          </div>
-          
-          <div class="nav-links">
-            <ul>
-              <li><a href="#" class="nav-link">home</a></li>
-              <li><a href="#" class="nav-link">About</a></li>
-              <li><a href="#" class="nav-link">services</a></li>
-              <li><a href="#" class="nav-link">Project</a></li>
-              <li><a href="#" class="nav-link">Pages</a></li>
-              <li><a href="#" class="nav-link">Contact</a></li>
-            </ul>
-          </div>
-         
+      <div class="container">
+        <!-- Logo Start TODO: -->
+        <div class="logo">
+          <h1>
+            Pest<span>Kit</span>
+            <i class="fa fa-spider text-primary"></i>
+          </h1>
         </div>
+        <!-- Logo End TODO: -->
+        <!-- Navbar Content Start TODO: -->
+        <div class="nav_links">
+          <ul>
+            <li>
+              <a class="nav_link active" href="#">Home</a>
+            </li>
+            <li>
+              <a class="nav_link" href="./pages/about.html">About</a>
+            </li>
+            <li>
+              <a class="nav_link" href="#">Services</a>
+            </li>
+            <li>
+              <a class="nav_link" href="#">Projects</a>
+            </li>
+            <li>
+              <a class="nav_link" href="#">Pages</a>
+            </li>
+            <li>
+              <a class="nav_link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Navbar Content End TODO: -->
+        <!-- Mobile Menu -->
+        <button class="mobile_menu">
+          <i class="fa fa-bars text-secondary"></i>
+        </button>
+      </div>
     </nav>
-</header>
-<!-- end -->
+  </header>
+  <!--TODO: Header End -->
+
 <section class="hero-banner">
   <div class="container">
     <div class="hero-contant">
@@ -86,16 +117,72 @@
 </section>
 <!-- end -->
 
-<div class="container">
-  <div>
-    <img src="" alt="">
+<!-- About Us Start TODO: -->
+<section class="about_us sec_padding">
+  <div class="container">
+    <!-- Flex Element TODO: -->
+    <div class="about_wrapper">
+      <!-- About Element For Images TODO: -->
+      <div class="about_img">
+        <img src="../images/about-img.jpg" alt="Rakib Hasan" />
+        <!-- Animation Start TODO: -->
+        <div class="exprence_animation">
+            <h1>20</h1>
+            <p>Years of Experiences</p>
+        </div>
+         <!-- Animation Start TODO: -->
+      </div>
+      <!-- About Content TODO: -->
+      <div class="about_content">
+        <div class="about_us_design">
+          <span>About PestKit</span>
+        </div>
+        <h1 class="about_title">World Best Pest Control Services Since 2008</h1>
+        <p class="description_about">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiu smod tempor incididunt ut labore dolore magna aliqua.Quis ipsum suspen disse ultrices gravida Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+        <div class="about_content_wrapper">
+          <!-- About Single Element Start TODO: -->
+          <div class="about_single_content">
+              <div class="about_single_icon">
+                <i class="fas fa-city fa-4x text-primary"></i>
+              </div>
+              <p>
+                Building Cleaning
+              </p>
+          </div>
+          <div class="about_single_content">
+              <div class="about_single_icon">
+                <i class="fas fa-city fa-4x text-primary"></i>
+              </div>
+              <p>
+                Building Cleaning
+              </p>
+          </div>
+          <div class="about_single_content">
+              <div class="about_single_icon">
+                <i class="fas fa-city fa-4x text-primary"></i>
+              </div>
+              <p>
+                Building Cleaning
+              </p>
+          </div>
+          <div class="about_single_content">
+              <div class="about_single_icon">
+                <i class="fas fa-city fa-4x text-primary"></i>
+              </div>
+              <p>
+                Building Cleaning
+              </p>
+          </div>
+          <!-- About Single Element End TODO: -->
+        </div>
+        <button class="app_button">
+            Find Services
+        </button>
+      </div>
+    </div>
   </div>
-  <div>
-    <h3>About PestKit</h3>
-    <h1>World Best Pest Control Services Since 2008</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis aut facilis delectus sed tempora porro, eaque reiciendis reprehenderit amet eos provident temporibus ea perspiciatis eum dolores officiis nulla? Cumque esse maxime et dolore illo ipsa ad nulla aliquid. Pariatur, in?</p>
-  </div>
-</div>
+</section>
+<!-- About Us End TODO: -->
 
 </body>
 </html>

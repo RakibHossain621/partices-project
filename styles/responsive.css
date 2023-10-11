@@ -47,6 +47,18 @@
     .search_bar{
         width: 17em;
     }
+    .about_wrapper{
+        flex-direction: column;
+    }
+    .about_img{
+        width: 100%;
+    }
+    .about_content{
+        width: 100%;
+    }
+    .about_content_wrapper{
+        flex-wrap: wrap;
+    }
  }
 /* Tablet Version */
 @media (max-width: 1024px) { 
